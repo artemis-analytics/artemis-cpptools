@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from artemis.tools._filtercoltool import Filter
+from artemis_cpptools.tools._filtercoltool import Filter
 from artemis_base.utils.decorators import iterable
 from artemis_base.core.tool import ToolBase
 

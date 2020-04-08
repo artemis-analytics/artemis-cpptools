@@ -17,10 +17,10 @@
 # limitations under the License.
 #
 # distutils: language = c++
-# distutils: sources = "artemis/cpp/filtercol.cpp"
+# distutils: sources = "artemis_cpptools/cpp/filtercol.cpp"
 # cython: language_level = 3
 
-from artemis.includes.libfiltercol cimport CFilterColumns
+from artemis_cpptools.includes.libfiltercol cimport CFilterColumns
 from pyarrow import RecordBatch
 from pyarrow.compat import frombytes, tobytes
 from pyarrow.lib cimport (pyarrow_wrap_batch, pyarrow_unwrap_batch)
